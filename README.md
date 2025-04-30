@@ -35,6 +35,6 @@ The model achieves the following performance metrics:
 - **Attention Heatmaps**: Highlight diagnostically relevant regions in the input images.
 - **Grad-CAM**: Visualizes the model's focus areas during prediction.
 
-Example visualizations can be found in the `results/` directory.
+
 
 
