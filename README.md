@@ -19,42 +19,6 @@ The model is trained on the [HAM10000 dataset](https://doi.org/10.1038/sdata.201
 - Vascular lesions (VASC)
 - Dermatofibroma (DF)
 
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/Deep-Lesion-Scan.git
-   cd Deep-Lesion-Scan
-   ```
-
-2. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-## Usage
-### Data Preprocessing
-Run the preprocessing script to prepare the dataset:
-```bash
-python src/data_preprocessing.py
-```
-
-### Training the Model
-Train the Soft Attention-enhanced ResNet50 model:
-```bash
-python src/train.py
-```
-
-### Evaluation
-Evaluate the model on the test set and generate performance metrics:
-```bash
-python src/evaluate.py
-```
-
-### Visualization
-Generate attention heatmaps and Grad-CAM visualizations:
-```bash
-python src/visualize.py
-```
 
 ## Results
 The model achieves the following performance metrics:
